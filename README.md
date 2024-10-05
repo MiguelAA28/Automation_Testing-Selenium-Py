@@ -1,0 +1,1 @@
+# This repository is intended to store automated test suites with Selenium&Python about different Web applications and in various regression-type scenarios as part of personal projects or freelance jobs.
