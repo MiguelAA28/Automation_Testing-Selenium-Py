@@ -51,6 +51,8 @@ mensaje_exito = driver.find_element(By.XPATH, "//h4[text() = 'Tu anuncio para qu
 if 'Tu anuncio para quedar se ha publicado con éxito.' in mensaje_exito.text:
         print("Test exitoso: El formulario se envió correctamente.")
 
+else:
+        print("Test erroneo: El formulario no pudo ser enviado")
 
 
 
