@@ -14,3 +14,5 @@
 # 9. Make the selection into the check boxes by "para que"
 # 10. Run the search by click " aplicar filtro"
 # 11. Close execution.
+
+# The result of the execution showed 0 errors with the exception in the sections "Que buscas" y "Para que" composed for check boxes, in which these check boxes should be unchecked by default
