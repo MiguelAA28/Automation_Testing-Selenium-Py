@@ -13,4 +13,4 @@
 # 7. Select "publicar anuncio".
 # 8. Validate the messagem "Tu anuncio para quedar se ha publicado con éxito."
 
-The result of the execution showed 0 errors
+#The result of the execution showed 0 errors
