@@ -60,9 +60,10 @@ time.sleep(5)
 driver.find_element(By.ID, "do_filter").click()
 
 time.sleep(20)
-driver.close()
 print(driver.title)
 print(driver.current_url)
+driver.close()
+
 
 
 
