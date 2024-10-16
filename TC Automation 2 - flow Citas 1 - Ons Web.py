@@ -7,7 +7,6 @@
 #Descripción: Escenario flow "Citas - publicar tu anuncio para quedar" Web pag ONS
 
 
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
@@ -56,8 +55,6 @@ if 'Tu anuncio para quedar se ha publicado con éxito.' in mensaje_exito.text:
 
 else:
         print("Test erroneo: El formulario no pudo ser enviado")
-
-
 
 time.sleep(20)
 driver.close()
