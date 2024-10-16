@@ -6,7 +6,6 @@
 #Descripción: Escenario flow "Citas - Encontrar a alguien para quedar" Web pag ONS
 
 
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
@@ -36,7 +35,6 @@ driver.find_element(By.ID, "do_filter").click()
 
 time.sleep(5)
 driver.find_element(By.LINK_TEXT, "").click()
-
 
 time.sleep(20)
 driver.close()
