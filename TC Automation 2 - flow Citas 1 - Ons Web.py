@@ -45,6 +45,9 @@ driver.find_element(By.ID, "description").send_keys("")
 time.sleep(5)
 driver.find_element(By.ID, "submit_form").click()
 
+time.sleep(5)
+driver.get_screenshot_as_file("")
+
 time.sleep(7)
 mensaje_exito = driver.find_element(By.XPATH, "//h4[text() = 'Tu anuncio para quedar se ha publicado con éxito.']")
 
