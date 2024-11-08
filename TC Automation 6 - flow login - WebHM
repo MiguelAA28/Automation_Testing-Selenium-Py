@@ -20,9 +20,9 @@ class TestUno(Clase_Base):
 
         time.sleep(5)
         paginaterciaria = Tercera_Pagina(driver)
-        paginaterciaria.UsuarioItems().send_keys("m.a.a.arango@hotmail.com")
+        paginaterciaria.UsuarioItems().send_keys("")
         paginaterciaria = Tercera_Pagina(driver)
-        paginaterciaria.ContraseñaItems().send_keys("Prueba12345")
+        paginaterciaria.ContraseñaItems().send_keys("")
 
         time.sleep(5)
         paginaterciaria = Tercera_Pagina(driver)
@@ -30,7 +30,7 @@ class TestUno(Clase_Base):
 
         time.sleep(5)
         paginacuaternaria = Cuarta_Pagina(driver)
-        paginacuaternaria.NusuarioItems().send_keys("PruebaMAAA5")
+        paginacuaternaria.NusuarioItems().send_keys("")
 
         time.sleep(5)
         paginacuaternaria = Cuarta_Pagina(driver)
