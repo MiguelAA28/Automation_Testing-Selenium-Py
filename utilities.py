@@ -1,0 +1,6 @@
+import pytest
+
+@pytest.mark.usefixtupytestres("setup")
+
+class Clase_Base:
+    pass

@@ -1,0 +1,20 @@
+from selenium.webdriver.common.by import By
+
+class Tercera_Pagina:
+
+    def __init__(self,driver):
+        self.driver = driver
+
+    usuario = (By.NAME, "email")
+    contraseña = (By.XPATH, "//input[@type='password']")
+    crear = (By.CSS_SELECTOR, "button[class='rounded-lg border font-medium px-6 disabled:bg-gray-100 disabled:text-gray-400 disabled:cursor-default text-white bg-color3 hover:bg w-full h-[42px] mt-12']")
+
+    def UsuarioItems(self):
+        return self.driver.find_element(*Tercera_Pagina.usuario)
+    
+    def ContraseñaItems(self):
+        return self.driver.find_element(*Tercera_Pagina.contraseña)
+    
+    def CrearItems(self):
+        return self.driver.find_element(*Tercera_Pagina.crear)
+        
