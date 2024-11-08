@@ -1,0 +1,11 @@
+from selenium.webdriver.common.by import By
+
+class Segunda_Pagina:
+
+    def __init__(self,driver):
+        self.driver = driver
+
+    inicio = (By.CSS_SELECTOR, "div[class='space-x-2 pb-8'] span[class='underline cursor-pointer']")
+
+    def SegundosItems(self):
+        return self.driver.find_element(*Segunda_Pagina.inicio)
