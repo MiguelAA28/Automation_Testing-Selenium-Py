@@ -1,3 +1,10 @@
+# Pruebas Automaticas
+
+#Nombre: Miguel Arango
+#Versión: 3
+#Fecha: 14/11/2024
+#Descripción: Escenario flow "Gente" - Performado Web pag ONS
+
 from utilitieso import Clase_Principal
 from ventanaemerg import Pop_Up
 from loginpg import Pg_Login
