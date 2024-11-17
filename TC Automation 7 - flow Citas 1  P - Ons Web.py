@@ -22,9 +22,9 @@ class TestOns(Clase_Principal):
 
         time.sleep(5)
         loginini = Pg_Login(driver)
-        loginini.UsuarioItems().send_keys("m.a.a.arango@hotmail.com")
+        loginini.UsuarioItems().send_keys("")
         loginini = Pg_Login(driver)
-        loginini.ContraseñaItems().send_keys("Libre1026575280.")
+        loginini.ContraseñaItems().send_keys("")
         loginini = Pg_Login(driver)
         loginini.LoginItems().click()
 
@@ -34,15 +34,15 @@ class TestOns(Clase_Principal):
 
         time.sleep(5)
         dropgente = Pg_Dropdw(driver)
-        dropgente.DistanciaItems().select_by_value("ciudad")
+        dropgente.DistanciaItems().select_by_value("")
         dropgente = Pg_Dropdw(driver)
-        dropgente.ProvinciaItems().select_by_value("8")
+        dropgente.ProvinciaItems().select_by_value("")
         dropgente = Pg_Dropdw(driver)
-        dropgente.EdadelItems().select_by_value("25a35")
+        dropgente.EdadelItems().select_by_value("")
         dropgente = Pg_Dropdw(driver)
-        dropgente.EdadellaItems().select_by_value("25a35")
+        dropgente.EdadellaItems().select_by_value("")
         dropgente = Pg_Dropdw(driver)
-        dropgente.RelacionItems().select_by_value("noamigos")
+        dropgente.RelacionItems().select_by_value("")
         
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 
